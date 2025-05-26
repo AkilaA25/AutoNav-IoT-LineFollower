@@ -49,5 +49,6 @@ This project simulated real-world embedded development: tight memory constraints
 ## 📷 Demo
 
 ![Final Car Demo](images/IMG_3876.jpg)
+[![Watch the demo](images/demo-thumbnail.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 
