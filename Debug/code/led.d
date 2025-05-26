@@ -1,0 +1,99 @@
+# FIXED
+
+code/led.obj: ../code/led.c
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/macros.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/string.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/xlocale/_string.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdlib.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/clocks.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/display.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/functions.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/ADC.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/init.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/LCD.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/led.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/ports.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/system.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/globals.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/timers.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/PWM.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/wheels.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/black_line.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/display_timer.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/baud.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/IOT.h
+code/led.obj: C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/DAC.h
+code/led.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430.h
+code/led.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430fr2355.h
+code/led.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/in430.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics.h
+code/led.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics_legacy_undefs.h
+code/led.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/legacy.h
+
+../code/led.c:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/macros.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/string.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/xlocale/_string.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdlib.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/clocks.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/display.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/functions.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/ADC.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/init.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/LCD.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/led.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/ports.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/system.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/globals.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/timers.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/PWM.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/wheels.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/black_line.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/display_timer.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/baud.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/IOT.h:
+
+C:/Users/akila/OneDrive/Desktop/Code\ Composer/Project10v5/Project10/include/DAC.h:
+
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430.h:
+
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430fr2355.h:
+
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/in430.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics.h:
+
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics_legacy_undefs.h:
+
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/legacy.h:
+
