@@ -4,6 +4,12 @@ IoT-enabled autonomous car developed for ECE 306 at NC State University. Navigat
 
 # IoT Autonomous Car Project
 
+## 🏁 Summary
+
+This project was a full-stack embedded system implementation involving power regulation, sensor integration, motor control, UART and Wi-Fi communication, and autonomous behavior. It pushed my skills in real-time programming, hardware debugging, and system integration. Each step brought the project closer to a functioning IoT-enabled robotic system, culminating in a successful hands-free demonstration of remote and autonomous navigation.
+
+All source code, documentation, and per-project logs can be found in the individual project directories.
+
 ## 🚗 Final Accomplishment
 
 The final product is a fully autonomous, Wi-Fi-enabled car controlled by an MSP430FR2355 microcontroller. The car is capable of connecting to a wireless network, navigating a multi-checkpoint obstacle course via remote Wi-Fi commands, and then transitioning into autonomous mode to detect, follow, and circle around a black electrical tape loop before exiting independently.
@@ -46,8 +52,42 @@ I brought everything together in the final demonstration. The car connected to W
 
 ---
 
-## 🏁 Summary
+## 🧠 Key Features
 
-This project was a full-stack embedded system implementation involving power regulation, sensor integration, motor control, UART and Wi-Fi communication, and autonomous behavior. It pushed my skills in real-time programming, hardware debugging, and system integration. Each step brought the project closer to a functioning IoT-enabled robotic system, culminating in a successful hands-free demonstration of remote and autonomous navigation.
+- **Autonomous Navigation**: Line-following behavior using analog sensors and calibrated ADC thresholds.
+- **PWM-Based Motor Control**: Independent control of two DC motors with adjustable speed and direction using software PWM.
+- **LCD Output**: Live debugging and data output via a parallel-interface LCD.
+- **Real-Time Interrupts**: Debounced user input via interrupt-driven button control.
+- **Battery System**: Power management and physical design for mobile operation.
+- **Reflectance Sensor Calibration**: Real-time ADC thresholding and tuning for accurate sensor response.
+- **Modular Design**: Software written in stages, with reusable C modules and interrupt service routines.
 
-All source code, documentation, and per-project logs can be found in the individual project directories.
+## 🛠 Hardware Components
+
+- MSP430G2553 Microcontroller
+- 4x DC Motors + H-Bridge Motor Driver
+- 2x Reflectance Sensor
+- LCD Module
+- Push Button Interface
+- Breadboard for signal routing
+- Chassis and wheel platform
+
+## 📚 Skills Gained
+
+- Embedded C programming
+- Register-level microcontroller configuration
+- Real-time systems and interrupt handling
+- ADC and PWM configuration
+- Peripheral integration (LCD, sensors, motors)
+- Breadboarding and embedded hardware design
+- Debugging using LEDs, LCD, and serial I/O
+- Modular software development in constrained environments
+
+## 🧩 Educational Value
+
+This project simulated real-world embedded development: tight memory constraints, low-level control, real-time deadlines, and debugging without traditional OS support. It prepared me for systems-level firmware development and gave me an appreciation for the complexity of embedded design workflows used in automotive systems, robotics, consumer electronics, and IoT devices.
+
+## 📷 Demo
+
+![Final Car Demo](images/IMG_3876.jpg)
+[![Watch the demo](images/demo-thumbnail.jpg)](https://youtube.com/shorts/bu2CRzftjk8)
