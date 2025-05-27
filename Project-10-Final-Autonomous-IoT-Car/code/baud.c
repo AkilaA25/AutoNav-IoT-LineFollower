@@ -1,0 +1,45 @@
+/*
+ * baud.c
+ *
+ *  Created on: Mar 27, 2025
+ *      Author: akila
+ */
+
+
+#include  "include\macros.h"  //has every header file and global variables
+
+void setBaudRate(unsigned long baud) {
+    if (currentBaudRate == baud) return;
+
+    currentBaudRate = baud;
+
+    // Put both UART ports in reset mode
+    UCA0CTLW0 |= UCSWRST;
+    UCA1CTLW0 |= UCSWRST;
+
+    if (baud == 9600) {
+        // 9600 baud settings
+        UCA0BRW = 52;        // 9600 baud
+        UCA1BRW = 52;
+        UCA0MCTLW = 0x4911;
+        UCA1MCTLW = 0x4911;
+    } else if (baud == 115200) {
+        // 115200 baud settings
+        UCA0BRW = 4;        // 115200 baud
+        UCA1BRW = 4;
+        UCA0MCTLW = 0x5551;
+        UCA1MCTLW = 0x5551;
+    } else if (baud == 460800) {
+        // 460800 baud settings
+        UCA0BRW = 17;        // 460800 baud
+        UCA1BRW = 17;
+        UCA0MCTLW = 0x4A00;
+        UCA1MCTLW = 0x4A00;
+    }
+
+    // Release from reset and enable RX interrupt
+    UCA0CTLW0 &= ~UCSWRST;
+    UCA1CTLW0 &= ~UCSWRST;
+    UCA0IE |= UCRXIE;
+    UCA1IE |= UCRXIE;
+}
