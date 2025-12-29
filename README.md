@@ -4,7 +4,7 @@ IoT-enabled autonomous car developed for ECE 306 at NC State University. Navigat
 
 # IoT Autonomous Car Project
 
-## 🏁 Summary
+## Summary
 
 This project was a full-stack embedded system implementation involving power regulation, sensor integration, motor control, UART and Wi-Fi communication, and autonomous behavior. It pushed my skills in real-time programming, hardware debugging, and system integration. Each step brought the project closer to a functioning IoT-enabled robotic system, culminating in a successful hands-free demonstration of remote and autonomous navigation.
 
